@@ -20,9 +20,7 @@ namespace BIU_E1_204
         public string GuardianName { get; set; }
         public string GuardianContact { get; set; }
 
-        // =========================
-        // SELECT
-        // =========================
+        // SELECT data from DB
         public DataTable GetData()
         {
             DataTable dt = new DataTable();
